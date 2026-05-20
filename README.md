@@ -38,3 +38,21 @@ Sincroniza los cambios realizados en el repositorio
 ````shell
 git push -u origin main 
 ````
+## 5. Agregar documentación a los métodos
+Agregar un **docstring** a los metodos generados 
+````shell
+def metodoDos(self,variable_uno:int, variable_dos:int)->int:
+        """
+        Este metodo recibe 2 variables enteras, las suma y regresa el resultado de la suma
+        
+        Args:
+
+        variable_uno : int -primer numero entero
+        variable_dos : int -segundo numero entero
+
+        Return:
+
+        suma :int - SUma de los dos numeros
+        """ 
+ ````
+Sirve como una especie de manual o bitácora para tu codigo o software esto te permitira entender tus codigos rapidamente sobre todo cuando el trabajo es en equipo
